@@ -1,0 +1,104 @@
+{
+    "roster": [
+      {
+        "index": 1,
+        "guid": "e0865324-7a49-4ecf-afd6-8c5f99e0c4a7",
+        "name": "Booth"
+      },
+      {
+        "index": 2,
+        "guid": "fb5abeba-9ee4-432b-a2cc-c0c1c0fe4fa8",
+        "name": "Estella"
+      },
+      {
+        "index": 3,
+        "guid": "be707cb9-dcd7-47c6-803c-a5e29efdd519",
+        "name": "Bettie"
+      },
+      {
+        "index": 4,
+        "guid": "5bf6562f-15ca-49df-bf5b-b6501ad8b8f9",
+        "name": "Selma"
+      },
+      {
+        "index": 5,
+        "guid": "0359c547-cbd1-487f-9f05-a49d567838e5",
+        "name": "Heidi"
+      },
+      {
+        "index": 6,
+        "guid": "f68bf956-eff5-492c-a805-d722740468cb",
+        "name": "Salazar"
+      },
+      {
+        "index": 7,
+        "guid": "449d8d81-0a1d-4c9d-b5fa-6cdcbe3bd230",
+        "name": "Beth"
+      },
+      {
+        "index": 8,
+        "guid": "708232ef-ca9d-46e7-abe7-92eda9f74b7e",
+        "name": "Calhoun"
+      },
+      {
+        "index": 9,
+        "guid": "61d25e36-c13f-483c-acd3-eda4192429b9",
+        "name": "Jeanie"
+      },
+      {
+        "index": 10,
+        "guid": "3e39fbda-dd8b-4708-b99e-d6d2581e4bc3",
+        "name": "Lana"
+      },
+      {
+        "index": 11,
+        "guid": "a805e853-90c2-41d5-a89c-eb2cab42c746",
+        "name": "Beverley"
+      },
+      {
+        "index": 12,
+        "guid": "7bb12ce1-3aa3-4dbd-81b9-88588f0d5a1a",
+        "name": "Richards"
+      },
+      {
+        "index": 13,
+        "guid": "b3d90345-945b-417b-b542-20a326175328",
+        "name": "Freda"
+      },
+      {
+        "index": 14,
+        "guid": "00f33d7c-6929-48dd-b1c8-d21e0627fcc3",
+        "name": "Annette"
+      },
+      {
+        "index": 15,
+        "guid": "beae1983-fd5f-441b-ad8b-0e2f13a41b51",
+        "name": "Sheryl"
+      },
+      {
+        "index": 16,
+        "guid": "fd771217-5998-41ad-bf17-79030b4a46bf",
+        "name": "Susanne"
+      },
+      {
+        "index": 17,
+        "guid": "7f55cd5b-e44e-4388-9b02-7e4271aa9bbc",
+        "name": "Holt"
+      },
+      {
+        "index": 18,
+        "guid": "6bbfb755-fc54-4e5c-90b2-aed4e2a9a6fe",
+        "name": "Deleon"
+      },
+      {
+        "index": 19,
+        "guid": "62a67ddc-7ecb-46ad-a76b-4dff8abe3bd8",
+        "name": "Greene"
+      },
+      {
+        "index": 20,
+        "guid": "15212856-691a-4e0a-9047-df45a73673fd",
+        "name": "Imelda"
+      }
+    ]
+  }
