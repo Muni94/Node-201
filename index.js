@@ -2,7 +2,7 @@
 //     perimeter : (x,y) => (2*(x+y)),
 //     area : (x, y) => (x*y)
 // };
-var rect = require('./rectangle').default;
+var rect = require('./rectangle');
 function solveRect(l,b)
 {
     console.log('Solving of rectangle with l: ' +l + ' and b: ' + b);
@@ -10,13 +10,14 @@ function solveRect(l,b)
     rect(l,b , (err, rectangle) =>
         {
             if(err){
-                console.log('Error :' +err.message);
+                console.log('ERROR :' , err.message);
             }
             else{
-                console.log('The area of rectangle for the dimensions l :' +l+ 'and b :' +b + 'is ' +rectangle.area());
-                console.log('The perimeter of the rectangle for the dimesnsion l :' +l+ ' and b :' +b+ 'is ' + rectangle.permeter())
+                console.log('The area of rectangle for the dimensions :' +rectangle.area());
+                console.log('The perimeter of the rectangle for the dimesnsion :' + rectangle.perimeter())
             }
-        })
+        });
+        console.log('This is after the call to rect!');
     // if (l <= 0 || b <=0)
     // {
     //     console.log('rectangle dimensions should be greater than 0');
