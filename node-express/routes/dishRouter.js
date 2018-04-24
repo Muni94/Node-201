@@ -38,8 +38,8 @@ dishRouter.route('/:dishId')
     res.end('POST will not support on dish: '+ req.params.dishId);
 })
 .put((req, res, next) => {
-    res.header('Updating the dish: ' +req.params.dishId);
-    res.end('will add the dish: '+ req.body.name+ ' with details: '+req.body.description);
+    res.write('Updating the dish: ' +req.params.dishId +'\n');
+    res.end('Adding the dish: '+ req.body.name+ ' with details: '+req.body.description);
 })
 .delete((req, res, next) => {
     res.end('Deleting the dish: '+ req.params.dishId);

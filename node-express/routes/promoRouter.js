@@ -38,8 +38,8 @@ promoRouter.route('/:promoId')
     res.end('POST will not support on promotion: '+ req.params.promoId);
 })
 .put((req, res, next) => {
-    res.header('Updating the promotion: ' +req.params.promoId);
-    res.end('will add the promotion: '+ req.body.name+ ' with details: '+req.body.description);
+    res.write('Updating the promotion: ' +req.params.promoId +'\n');
+    res.end('Adding the promotion: '+ req.body.name+ ' with details: '+req.body.description);
 })
 .delete((req, res, next) => {
     res.end('Deleting the promotion: '+ req.params.promoId);

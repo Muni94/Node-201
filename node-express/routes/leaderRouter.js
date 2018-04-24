@@ -38,8 +38,8 @@ leaderRouter.route('/:leaderId')
     res.end('POST will not support on leader: '+ req.params.leaderId);
 })
 .put((req, res, next) => {
-    res.header('Updating the leader: ' +req.params.leaderId);
-    res.end('will add the leader: '+ req.body.name+ ' with details: '+req.body.description);
+    res.write('Updating the leader: ' + req.params.leaderId +'\n');
+    res.end('Adding the leader: '+ req.body.name+ ' with details: '+req.body.description);
 })
 .delete((req, res, next) => {
     res.end('Deleting the leader: '+ req.params.leaderId);
