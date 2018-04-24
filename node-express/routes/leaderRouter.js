@@ -24,7 +24,7 @@ leaderRouter.route('/')
 .delete((req, res, next) =>{
     res.end('Deleting all the leaders');
 });
-leaderRouter.route('/:dishId')
+leaderRouter.route('/:leaderId')
 .all((req, res, next) =>
 {
     res.statusCode = 200 ;
